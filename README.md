@@ -31,8 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Live Site URL: https://frontend-mentor-interactive-rating-component-854gq38nt.vercel.app/
 
 ## My process
 
