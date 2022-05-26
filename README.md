@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://frontend-mentor-interactive-rating-component-854gq38nt.vercel.app/
+- Live Site URL: https://frontend-mentor-interactive-rating-component-gioblasco.vercel.app/
 
 ## My process
 
