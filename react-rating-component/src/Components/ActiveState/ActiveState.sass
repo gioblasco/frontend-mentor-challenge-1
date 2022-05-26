@@ -1,0 +1,53 @@
+@import "../../Styles/variables"
+
+.circle
+    background-color: $medium-blue
+    border-radius: 50%
+    width: 45px
+    height: 45px
+
+.clear-button
+    border: none
+    
+.rate-list
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    margin-top: 25px
+
+.rate-button
+    @extend .circle
+    @extend .clear-button
+    color: $light-grey
+    background-color: $medium-blue
+    &.active 
+        background-color: $medium-grey
+        color: $white
+
+.rate-button:hover
+    background-color: $orange
+    color: $white
+    cursor: pointer
+
+.submit-button
+    @extend .clear-button
+    background-color: $orange
+    border-radius: 25px
+    color: $white
+    margin-top: 25px
+    letter-spacing: 2px
+    text-transform: uppercase
+    width: 100%
+    padding: 12px
+
+.submit-button:hover
+    background-color: $white
+    color: $orange
+    cursor: pointer
+
+.around-star
+    @extend .circle
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 20px
